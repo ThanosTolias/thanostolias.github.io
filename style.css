@@ -157,7 +157,9 @@ h1 {
 
 .portrait {
   display: block;
-  width: 100%;
+  width: 360px;
+  height: 360px;
+  #width: 100%;
   aspect-ratio: 1;
   object-fit: cover;
   border: 1px solid var(--border);
