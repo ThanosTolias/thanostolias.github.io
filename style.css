@@ -152,15 +152,18 @@ h1 {
 }
 
 .portrait-wrap {
+  width: 240px;
+  height: 240px;
   margin: 0;
+  justify-self: end;
 }
 
 .portrait {
   display: block;
-  width: 360px;
-  height: 360px;
-  #width: 100%;
-  aspect-ratio: 1;
+  width: 240px;
+  height: 240px;
+  max-width: 100%;
+  aspect-ratio: 1 / 1;
   object-fit: cover;
   border: 1px solid var(--border);
   border-radius: 7px;
